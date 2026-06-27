@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        internal delegate double Operation(double num1, double num2);
+        internal delegate double Operation(double number1, double number2);
 
         static void Main(string[] args)
         {
