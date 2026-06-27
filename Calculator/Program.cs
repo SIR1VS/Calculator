@@ -14,6 +14,11 @@
             return number1 - number2;
         }
 
+        internal static double Multiply(double number1, double number2)
+        {
+            return number1 * number2;
+        }
+
         static void Main(string[] args)
         {
         }
