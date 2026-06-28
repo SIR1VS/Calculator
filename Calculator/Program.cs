@@ -21,7 +21,6 @@
             Console.WriteLine(new string('=', 38));
             Console.WriteLine("\tКОНСОЛЬНЫЙ КАЛЬКУЛЯТОР\t");
             Console.WriteLine(new string('=', 38));
-
             try
             {
                 Console.Write("Введите первое число: ");
@@ -53,7 +52,6 @@
                     Console.WriteLine("Операция не выбрана");
                     return;
                 }
-
                 char choice = input[0];
 
                 Operation operation;
